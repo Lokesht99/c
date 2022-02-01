@@ -31,7 +31,7 @@ int main(void)
 
     struct Admin ad;
 
-    for(int i=0;i<3;i++)
+    for(int i=0;i<2;i++)
     {
         printf("\nDetails of student #%d\n",(i+1));
         printf("\nEnter student id\n");
@@ -55,7 +55,7 @@ int main(void)
     }
 
     printf("\nResult via Admin\n");
-    for(int i=0;i<3;i++)
+    for(int i=0;i<2;i++)
     {
         printf("\nDeatil of student #%d\n",(i+1));
         printf("id: %s\n",ad.std[i].id);
